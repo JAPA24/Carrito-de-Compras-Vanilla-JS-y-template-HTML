@@ -1,12 +1,12 @@
 [
     {
-      "precio": 500,
+      "precio": 300,
       "id": 1,
       "title": "Café",
       "thumbnailUrl": "https://picsum.photos/id/431/600"
     },
     {
-      "precio": 300,
+      "precio": 500,
       "id": 2,
       "title": "Pizza",
       "thumbnailUrl": "https://picsum.photos/id/163/600"
@@ -18,7 +18,7 @@
       "thumbnailUrl": "https://picsum.photos/id/41/600"
     },
     {
-      "precio": 50,
+      "precio": 30,
       "id": 4,
       "title": "Naranja",
       "thumbnailUrl": "https://picsum.photos/id/517/600"
