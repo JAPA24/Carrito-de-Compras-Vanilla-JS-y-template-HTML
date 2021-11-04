@@ -1,6 +1,6 @@
 [
     {
-      "precio": 300,
+      "precio": 200,
       "id": 1,
       "title": "Café",
       "thumbnailUrl": "https://picsum.photos/id/431/600"
@@ -15,10 +15,10 @@
       "precio": 100,
       "id": 3,
       "title": "Agua",
-      "thumbnailUrl": "https://picsum.photos/id/41/600"
+      "thumbnailUrl": "https://picsum.photos/id/509/600"
     },
     {
-      "precio": 30,
+      "precio": 20,
       "id": 4,
       "title": "Naranja",
       "thumbnailUrl": "https://picsum.photos/id/517/600"
@@ -30,9 +30,9 @@
       "thumbnailUrl": "https://picsum.photos/id/1080/600"
     },
     {
-      "precio": 150,
+      "precio": 50,
       "id": 6,
-      "title": "Cerveza",
-      "thumbnailUrl": "https://picsum.photos/id/64/600"
+      "title": "Piña",
+      "thumbnailUrl": "https://picsum.photos/id/824/600"
     }
   ]

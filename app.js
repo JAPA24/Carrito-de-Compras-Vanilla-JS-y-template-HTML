@@ -8,6 +8,10 @@ const fragment = document.createDocumentFragment()
 let carrito = {}
 
 
+
+
+
+
 document.addEventListener('DOMContentLoaded', () =>{
     fetchData()
     if(localStorage.getItem('carrito')) {
@@ -15,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         pintarCarrito()
     }
 })
+
 
 cards.addEventListener('click', e => {
     addCarrito(e)
@@ -37,13 +42,17 @@ const fetchData = async () => {
 
 }
 
+
+
 const pintarCards = data =>{
     data.forEach(producto => {
+       
         templateCard.querySelector('h5').textContent = producto.title 
         templateCard.querySelector('p').textContent = producto.precio
         templateCard.querySelector('img').setAttribute("src", producto.thumbnailUrl)
         templateCard.querySelector('.btn-dark').dataset.id = producto.id
-        
+        templateCard.querySelector(".card").classList.add("tarjeta")
+        templateCard.querySelector(".btn-dark").classList.add("buttonCompra")
 
         const clone = templateCard.cloneNode(true) 
         fragment.appendChild(clone)
@@ -104,7 +113,7 @@ const pintarFooter = () => {
     
     if(Object.keys(carrito).length === 0){
         footer.innerHTML = 
-        `<th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>`
+        `<th scope="row" colspan="5">Carrito vacío - ¡comience a comprar!</th>`
         
         return
     }
